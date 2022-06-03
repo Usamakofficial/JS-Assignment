@@ -251,6 +251,7 @@ var
     document.write(x);
     document.write("<br>");
     document.write(typeof x); 
+
     // arrays and object will remain object in javascript
 
     var x = {
@@ -261,3 +262,62 @@ var
     document.write("<br>")
     document.write(typeof x);
 
+    // Arithmetic Operators
+    // Addition
+    var a = 45;
+    var b = 35;
+    var c = a + b;
+    document.write("<br>");
+    document.write(c);
+    console.log(c);
+
+    // Subtraction
+    var a = 50;
+    var b = 40;
+    var c = a - b;
+    document.write("<br>");
+    document.write(c);
+    console.log(c);
+
+    // Multiplication
+    var a = 40;
+    var b = 10;
+    var c = a * b;
+    document.write("<br>");
+    document.write(c);
+    console.log(c);
+
+    // Loop Concepts
+    // For Loop
+    for (i = 2; i < 6; i++){
+        console.log(i);
+    }
+    // Another concept of for loop
+    var num = 3;
+    for (var i = 1; i <= 10; i++){
+        console.log(num +" x " + i +" = " +(num*i))
+    }
+
+    // While Loop
+    let j = 0;
+    while ( j < 10) {
+        console.log(j+1);
+        j +=1;
+    }
+
+    // break
+    for (var i = 0; i < 8; i++) {
+        if(i == 4){
+            break;
+        }
+        console.log("I = "+i)
+        document.write("I = "+i);
+    }
+    // Another concept of break
+    for (var i = 0; i < 8; i++) {
+        if(i == 4){
+            continue;
+        }
+        console.log("I = "+i);
+    }
+    
